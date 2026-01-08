@@ -8,7 +8,7 @@ int game(int max_num)
     srand(time(0));
 
     // Generate a random number
-    int random_num = 1 + (rand() % (max_num + 1));
+    int random_num = 1 + (rand() % (max_num));
     int num_guesses = 0;
     int guess = 0;
 
