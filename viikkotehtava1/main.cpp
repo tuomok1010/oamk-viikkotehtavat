@@ -7,7 +7,7 @@ int game(int max_num)
     // Get a different random number each time the program runs
     srand(time(0));
 
-    // Generate a random number between 0 and 100
+    // Generate a random number
     int random_num = 1 + (rand() % (max_num + 1));
     int num_guesses = 0;
     int guess = 0;
